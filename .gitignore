@@ -1,0 +1,14 @@
+# latex building
+*.bcf*
+*.bbl
+*.aux
+*.lot
+*.out
+*.lof
+*.fls
+*.run*
+*.synctex*
+*.toc
+*.fdb_latexmk
+*.blg
+*.log
