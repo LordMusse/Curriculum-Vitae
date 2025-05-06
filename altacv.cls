@@ -418,13 +418,14 @@
     \endgroup
 }
 
-\newcommand{\cvref}[4]{%
+\newcommand{\cvref}[5]{%
   \smallskip
   \textcolor{emphasis}{\textbf{#1}}\par
   \textbf{\color{accent}#2}\par
   \begin{description}[font=\color{accent},style=multiline,leftmargin=1.35em,align=left]
-  \item[\small\normalfont\emailsymbol] #3
-  \item[\small\normalfont\faPhone] #4
+  \item[\small\normalfont\faHeartbeat] #3
+  \item[\small\normalfont\emailsymbol] #4
+  \item[\small\normalfont\faPhone] #5
   \end{description}
 %   \medskip
 }
