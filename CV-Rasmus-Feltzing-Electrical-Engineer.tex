@@ -107,11 +107,11 @@
   \phone{+46 70 896 73 87}
   \mailaddress{Berghagsvägen 9B, 666 40 Skåpafors, Sweden}
   %\location{Skåpafors, SWEDEN}
-  %\homepage{https://www.linkedin.com/in/feltzing/}
+  \homepage{https://www.muzzes.se}
   % \twitter{@twitterhandle}
   %\xtwitter{@x-handle}
   \linkedin{feltzing}
-  %\github{your_id}
+  \github{LordMusse}
   %\orcid{0000-0000-0000-0000}
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
@@ -139,7 +139,7 @@
 % \AtBeginEnvironment{itemize}{\small}
 
 %% Set the left/right column width ratio to 6:4.
-\columnratio{0.6}
+\columnratio{0.65}
 
 % Start a 2-column paracol. Both the left and right columns will automatically
 % break across pages if things get too long.
@@ -156,20 +156,18 @@ Thesis title: Simplified Heat Simulation of PCB Circuitry
 \item Project management
 \end{itemize}
 
-
-%\divider
-
-%\cvevent{B.Sc.\ in Your Discipline}{Stanford University}{Sept 1998 -- June %2001}{}
-
-
-
-% use ONLY \newpage if you want to force a page break for
-% ONLY the current column
-%\newpage
-
 \cvsection{PROFESSIONAL EXPERIENCE}
 
-\cvevent{Consultant}{CLUE by Sigma}{Dec 2024 -- Ongoing}{Gothenburg}
+\cvevent{Electronics Engineer}{Gebax Unimetron AB}{Aug 2025 -- Ongoing}{Säffle}
+\begin{itemize}
+\item Programming of soldering robots
+\item Application programming and automation
+\item 3D-modeling and CNC-machining 
+\end{itemize}
+
+\divider
+
+\cvevent{Consultant}{CLUE by Sigma}{Dec 2024 -- Dec 2025}{Gothenburg}
 \begin{itemize}
 \item Embedded Engineering in C++ 
 \item Data Analysis and Simulation of Dynamic Systems
@@ -180,7 +178,7 @@ Thesis title: Simplified Heat Simulation of PCB Circuitry
 
 \cvevent{Summer job}{SEM AB}{Jun 2024 -- Aug 2024}{Åmål}
 \begin{itemize}
-\item Performing heat analysis and fine tuning componentvalues in power electronics
+\item Performing heat analysis on and fine tuning power electronics
 \item Prototyping and soldering of PCB
 \end{itemize}
 
@@ -202,16 +200,16 @@ Thesis title: Simplified Heat Simulation of PCB Circuitry
 
 \cvevent{Teaching assistant in the course "control systems"}{Chalmers University of Technology}{Mar 2024 -- Jun 2024}{Gothenburg}
 \begin{itemize}
-    \item Assisting students with programming micro controllers and PLC as well as electronics design.
+    \item Assisting students with programming PLC and micro controllers as well as electronics design.
 \end{itemize}
 
 \divider
 
-\cvevent{Student Assistant}{Anpassad Grundskola Lerum}{May 2019 -- Jun 2025}{Lerum, Västra Götaland}
-\begin{itemize}
-\item Managing eye-controlled communication
-\item Teaching
-\end{itemize}
+%\cvevent{Student Assistant}{Anpassad Grundskola Lerum}{May 2019 -- Jun 2025}{Lerum, Västra Götaland}
+%\begin{itemize}
+%\item Managing eye-controlled communication
+%\item Teaching
+%\end{itemize}
 
 %\cvsection{A Day of My Life}
 
@@ -237,20 +235,7 @@ Thesis title: Simplified Heat Simulation of PCB Circuitry
 % Lim/L.\bibnamedelimi T.}
 %% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
-%\nocite{*}
 
-%\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-
-%\divider
-
-%\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
-
-%\divider
-
-%\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
-
-%% Switch to the right column. This will now automatically move to the second
-%% page if the content is too long.
 \switchcolumn
 
 %\cvsection{My Life Philosophy}
@@ -273,25 +258,19 @@ Thesis title: Simplified Heat Simulation of PCB Circuitry
 
 \cvsection{Strengths}
 
-% Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
-
-% The `ragged2e` document class option might cause automatic linebreaks between \cvtag to fail.
-% Either remove the ragged2e option; or 
-% add \LaTeXraggedright in the paragraph for these \cvtag
 {\LaTeXraggedright
 \cvtag{Seeking patterns}
 \cvtag{Sociable}
 \cvtag{Learner \& Teacher}
-\cvtag{Generous}
+\cvtag{Ambitious}
 \par}
 
 \divider\smallskip
 
-%% ...Or manually add linebreaks yourself
 \cvtag{Analogue Electronics}
-\cvtag{Simulation}\\
-\cvtag{Programming}
+\cvtag{Programming}\\
 \cvtag{Mathematics}
+\cvtag{3D-modeling}
 
 \cvsection{Languages}
 
@@ -303,9 +282,6 @@ Thesis title: Simplified Heat Simulation of PCB Circuitry
 
 \cvskill{French}{3} %% Supports X.5 values.
 
-%% Yeah I didn't spend too much time making all the
-%% spacing consistent... sorry. Use \smallskip, \medskip,
-%% \bigskip, \vspace etc to make adjustments.
 \medskip
 
 
@@ -317,22 +293,12 @@ Thesis title: Simplified Heat Simulation of PCB Circuitry
 \item Head of electronics
 \end{itemize}
 
-%\divider
-
-%\cvevent{Project 2}{Funding agency/institution}{Project duration}{}
-%A short abstract would also work.
-
 \medskip
-
-% \divider
 
 \cvsection{References}
 
+\cvref{Isak Monrad-Aas}{Manager at CLUE by Sigma}{previous immedieate supperior}{isak.monrad-aas@sigma.se}{+46 76 017 00 23}
 \cvref{Tomas Karlsson}{Technical expert at SEM AB}{previous immedieate supperior}{tomas.karlsson@sem.se}{+46 70 922 43 12}
-\cvref{Niss Kerstin Hallgren}{Principal at Anpassad Grundskola Lerum}{previous immedieate supperior}{kerstin.hallgren@lerum.se}{+46 73 684 44 05}
-
-%\divider
-
 
 \end{paracol}
 
